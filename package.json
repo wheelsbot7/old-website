@@ -1,15 +1,35 @@
 {
   "name": "silver-lamp",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple blog built with 11ty",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "eleventy --serve",
+    "build": "NODE_ENV=production eleventy"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1"
-  }
+    "eleventy-plugin-seo": "0.5.2",
+    "luxon": "3.5.0"
+  },
+  "engines": {
+    "node": "14"
+  },
+  "author": "wheelsbot7",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "2.0.1"
+  },
+  "keywords": [
+    "node",
+    "eleventy",
+    "express"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wheelsbot7/silver-lamp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wheelsbot7/silver-lamp/issues"
+  },
+  "homepage": "https://github.com/wheelsbot7/silver-lamp#readme"
 }

@@ -1,3 +1,11 @@
+---
+title: Arch Linux Install Guide
+description: beginner-friendly guide to using the archinstall script
+date: 2024-08-06
+tags:
+  - posts
+layout: layouts/post.njk
+---
 If you're just here for an install guide, hop down to the numbered list. If you're interested in learning *why* you should install Linux, read on!
 
 Linux has a (well deserved) reputation for being intimidating for newcomers, and I don't think that's a problem that needs to or even can be solved. The basic model for selling operating systems isn't exchanging money for functionality, it's exchanging money for convenience. Nobody buys Taco Bell because it's *better* than what they can throw together at home, they buy it because they can get food without the time and effort involved in making it themselves. In that process they also defer the expertise involved in making a taco to an employee. I know that's a weird example, but you understand what I'm getting at, right?
