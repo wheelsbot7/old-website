@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "migrated": 5,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiBookOpen",
+      "SiIcomoon",
+      "SiMdnwebdocs",
+      "RaRobotArm",
+      "TiCheckbox"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "debugMode": false
+  },
+  "Meal Planning.md": "FasBowlFood",
+  "Gen Notes/Video Stuff": "SiYoutube",
+  "Gen Notes/Video Stuff/ULTRAKILL Lore.md": "FasRobot",
+  "Gen Notes/Video Stuff/The Rotten Majesty of Megastructures.md": "TiGrid4x4",
+  "Gen Notes/Personal Thoughts": "FasBook",
+  "Gen Notes/School": "LiSchool",
+  "Gen Notes/Sin Stuff": "BoBxMessageX",
+  "Blog Stuff/My Experience with Linux.md": "SiArchlinux",
+  "Blog Stuff/My Cohost Userscripts.md": "TiBrandCohost",
+  "Blog Stuff/Kind of Surprised by the Invisibility of FOSS.md": "RiOpenSourceFill",
+  "Gen Notes/TODO/2024-06-06.md": "SiGoogletasks",
+  "Gen Notes/Video Stuff/ULTRAKILL Lore Notes.md": "RaRobotArm",
+  "Blog Stuff/Sitemap.canvas": "SiMdnwebdocs",
+  "Gen Notes/Video Stuff/Thoughts on Endwalker.md": "SiIcomoon",
+  "Gen Notes/Video Stuff/Metafictional Horror.md": "LiBookOpen"
+}
