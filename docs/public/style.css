@@ -232,6 +232,7 @@ main li {
 
 main code {
 	background-color: #333230;
+	display: inline-flex;
 	box-shadow: 1px 1px 1px #020202;
 }
 
