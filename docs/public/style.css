@@ -1,9 +1,18 @@
+:root {
+	--base-bg-color: #0f4588;
+	--dark-bg-color: #00008a;
+	--header-bg-color: #333230;
+	--content-bg-color: #391c71;
+	--content-text-color: #e4f850;
+	--header-text-color: #e3fc27;
+}
+
 body {
 	font-family: 'Inclusive Sans';
 	margin: 0;
-	background-color: #0f4588;
+	background-color: var(--base-bg-color);
 	background-image: url("/img/bg_sq.png");
-	color: #000000;
+	color: var(--content-text-color);
 }
 
 @font-face {
@@ -47,13 +56,14 @@ body {
 }
 
 #container a {
-	color: #00008a;
+	color: var(--header-text-color);
 	font-weight: bold;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 #container a:hover {
 	color: #aaaaaa;
+	background-color: var(--dark-bg-color);
 }
 
 #masthead {
@@ -61,7 +71,7 @@ body {
 	height: 60px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #00008a;
+	background-color: var(--dark-bg-color);
 	background-repeat: no-repeat;
 	padding-top: 10px;
 	padding-bottom: 5px;
@@ -74,7 +84,7 @@ body {
 }
 
 #masthead a {
-	color: rgb(255, 255, 255);
+	color: white;
 }
 
 #masthead a:hover {
@@ -87,7 +97,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333230;
+  background-color: var(--header-bg-color);
   border-top: 4px ridge #a9a9a9;
   border-bottom: 4px ridge #a9a9a9;
   font-family: 'Inclusive Sans';
@@ -164,6 +174,10 @@ aside h3 {
 	margin-right: 5px;
 }
 
+#content {
+	color: var(--content-text-color);
+}
+
 #content a {
 	text-decoration: underline;
 }
@@ -192,7 +206,8 @@ blockquote {
 }
 
 main {
-	background-color: #f2f2f2;
+	background-color: var(--content-bg-color);
+	color: var(--content-text-color);
 	flex: 1;
 	padding-left: 5%;
 	padding-top: 20px;
@@ -213,6 +228,11 @@ main p {
 main li {
 	font-size: 18px;
 	line-height: 1.4em;
+}
+
+main code {
+	background-color: #333230;
+	box-shadow: 1px 1px 1px #020202;
 }
 
 .caption {
@@ -287,7 +307,7 @@ summary strong {
 h1,
 h2,
 h3 {
-	color: #020202;
+	color: var(--header-text-color);
 	font-family: Tahoma, sans-serif;
 }
 
@@ -321,8 +341,9 @@ h5 {
 
 strong {
 	/* this styles bold text */
-	color: #020202;
+	color: var(--content-text-color);
 	font-size: 18px;
+	font-weight: bold;
 }
 
 img {
