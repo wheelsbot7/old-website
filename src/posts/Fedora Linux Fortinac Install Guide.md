@@ -12,7 +12,7 @@ I recently had the displeasure of trying to get my laptop to connect to the coll
 ## Why are we even doing this?
 
 Normally using endpoint management software is annoying, but painless. Install a program, run it, it configures some stuff behind the scenes, you're good to go. However, this only works if you're using a system the developers expect their customers to use. Since the vast majority of them use Windows, any Linux versions are janky at best and non-functional at worst. Thankfully, my college offered a work-around for "miscellaneous devices", set up the whole thing manually.
-![Screenshot of network configuration on KDE Plasma](https://i.imgur.com/ntZfeqJ.png)
+![Screenshot of network configuration on KDE Plasma](/img/Screenshot_20240906_114655.png)
 The process of configuring a secure connection manually is a bit overwhelming, but it's ultimately just putting squares in the square hole and circles in the circle hole. Your organization will provide all of these, though sometimes under different names, because god forbid anything about this be easy. Anyway, last year a change was made at my college, requiring not just the identity, domain, certificates and private key, but also a background service called "Fortinac Persistent Agent". Only problem? It only offered .deb and .rpm files. Hardly surprising, the only reason they had *any* Linux support was for Raspberry Pi projects. Regardless, that meant I had to distrohop yet again.
 
 ## The actual solution
