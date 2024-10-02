@@ -21,24 +21,11 @@ export default function (eleventyConfig) {
 			loading: "lazy",
 			decoding: "async",
     },
-    
+    urlPath: "/img/",
     outputDir: "/docs/img"
 	});
+  
     eleventyConfig.addPassthroughCopy("public/style.css");
-    eleventyConfig.setTemplateFormats([
-     // Templates:
-    "html",
-    "njk",
-    "md",
-    // Static Assets:
-    "css",
-    "jpeg",
-    "jpg",
-    "png",
-    "svg",
-    "woff",
-    "woff2"
-    ])
     eleventyConfig.addFilter("htmlDateString", dateObj => {
         return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
     });
