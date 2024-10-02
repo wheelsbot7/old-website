@@ -1,6 +1,8 @@
-const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
-module.exports = function (eleventyConfig) {
+import { DateTime } from "luxon";
+
+export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// which file extensions to process
 		extensions: "html",
@@ -22,15 +24,7 @@ module.exports = function (eleventyConfig) {
     
     outputDir: "/docs/img"
 	});
-};
-
-
-
-const { DateTime } = require("luxon");
-
-module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("public/style.css");
-    eleventyConfig.addPassthroughCopy("img/");
     eleventyConfig.setTemplateFormats([
      // Templates:
     "html",
