@@ -10,7 +10,7 @@ export default function (eleventyConfig) {
 		// Add any other Image utility options here:
 
 		// optional, output image formats
-		formats: ["avif", "webp", "auto"],
+		formats: ["auto"],
 
 		// optional, output image widths
     widths: ["auto"],
