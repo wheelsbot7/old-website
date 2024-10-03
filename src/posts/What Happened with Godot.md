@@ -19,4 +19,5 @@ That was it. That was literally it. That was all it took to whip twitter reply g
 
 Nobody's on trial for abusing their mod privileges, people are just mad they got their reply hidden. If you think that's valid, do me a favor and check the hidden replies. Or, even better, don't! There's nothing in there worth reading. In this situation the community manager running the account was entirely within their rights, yet regressive shit-lords decided this was enough to start a harassment campaign over.
 
-That's the gist of what's happened and what's happening. I don't really have a conclusion, other than taking any part of this seriously is more generous than any of these clowns deserve.
+That's the gist of what's happened and what's happening. I don't really have a conclusion, other than taking any part of this seriously is more generous than any of these clowns deserve. Well, there is one small silver lining, this comment: 
+![A lemmy.world comment reading "Open source software is the wokest shit possible... It's pretty much digital communism run by the gayest furries you'll ever meet."](/img/Comment.png)
