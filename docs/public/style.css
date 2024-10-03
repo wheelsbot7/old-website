@@ -42,10 +42,10 @@ body {
 }
 
 #container {
-	max-width: 1000px;
+	max-width: 1200px;
 	/* this is the width of your layout! */
 	/* if you change the above value, scroll to the bottom and change the media query according to the comment! */
-	margin: 1em auto;
+	margin: 100px auto;
 	/* this centers the entire page */
 	/*border-left: 1px solid #022baf;*/
 	/*border-right: 1px solid #022baf;*/
@@ -347,6 +347,12 @@ strong {
 	font-weight: bold;
 }
 
+img {
+	max-width: 1000px;
+	padding: 3px;
+	display: flex;
+	align-content: center;
+}
 
 video {
 	width: 100%;
