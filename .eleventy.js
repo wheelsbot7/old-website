@@ -22,7 +22,7 @@ export default function (eleventyConfig) {
 			decoding: "async",
     },
     urlPath: "/img/",
-    outputDir: "/docs/img"
+    outputDir: "./docs/img"
 	});
   
     eleventyConfig.addPassthroughCopy("public/style.css");
