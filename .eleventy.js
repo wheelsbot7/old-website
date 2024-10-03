@@ -10,15 +10,15 @@ export default function (eleventyConfig) {
 		// Add any other Image utility options here:
 
 		// optional, output image formats
-		formats: ["jpeg"],
-		// formats: ["auto"],
+		formats: ["avif", "webp", "auto"],
 
 		// optional, output image widths
-		widths: ["auto"],
+    widths: ["auto"],
 
 		// optional, attributes assigned on <img> override these values.
 		defaultAttributes: {
-			loading: "lazy",
+      loading: "lazy",
+      sizes: '1000px',
 			decoding: "async",
     },
     urlPath: "/img/",

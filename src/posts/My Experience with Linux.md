@@ -4,6 +4,8 @@ description: beginner-friendly guide to using the archinstall script
 date: 2024-08-06
 tags:
   - posts
+  - Linux
+  - Arch
 layout: layouts/post.njk
 ---
 

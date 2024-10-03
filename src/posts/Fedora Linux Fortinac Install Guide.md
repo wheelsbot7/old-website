@@ -4,6 +4,8 @@ description: Guide to installing Fortinac Persistent Agent on Fedora Linux
 date: 2024-09-06
 tags:
   - posts
+  - Linux
+  - Fedora
 layout: layouts/post.njk
 ---
 

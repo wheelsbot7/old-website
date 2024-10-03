@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Fedora Linux Fortinac Install Guide.md",
+                "file": "posts/What Happened with Godot.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/Fedora Linux Fortinac Install Guide.md",
+                "file": "posts/What Happened with Godot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/Fedora Linux Fortinac Install Guide.md",
+                "file": "posts/What Happened with Godot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/Fedora Linux Fortinac Install Guide.md"
+                "file": "posts/What Happened with Godot.md"
               }
             }
           }
@@ -148,6 +148,10 @@
   },
   "active": "46c4a1d7a492128c",
   "lastOpenFiles": [
+    "img/84b-2290307145.jpg",
+    "posts/Fedora Linux Fortinac Install Guide.md",
+    "posts/What Happened with Godot.md",
+    "img/GYfLkqVXgAAR-lT.jpg",
     "posts/My Experience with Linux.md"
   ]
 }
