@@ -2,6 +2,10 @@
 layout: layouts/base.njk
 templateClass: tmpl-home
 ---
+<head>
+    <title>Posts</title>
+</head>
+
 {{ content | safe }}
 <ul>
     {%- for post in collections.posts -%}
