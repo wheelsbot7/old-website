@@ -43,9 +43,10 @@ body {
 
 #container {
 	max-width: 1200px;
+	width: 90%;
 	/* this is the width of your layout! */
 	/* if you change the above value, scroll to the bottom and change the media query according to the comment! */
-	margin: 100px auto;
+	margin: auto;
 	/* this centers the entire page */
 	/*border-left: 1px solid #022baf;*/
 	/*border-right: 1px solid #022baf;*/
@@ -176,6 +177,7 @@ aside h3 {
 
 #content {
 	color: var(--content-text-color);
+	padding: 10px;
 }
 
 #content a {
