@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/What Happened with Godot.md",
+                "file": "posts/How WOKE are my games.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/What Happened with Godot.md",
+                "file": "posts/How WOKE are my games.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/What Happened with Godot.md",
+                "file": "posts/How WOKE are my games.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/What Happened with Godot.md"
+                "file": "posts/How WOKE are my games.md"
               }
             }
           }
@@ -146,13 +146,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6425fc55755d4066",
+  "active": "46c4a1d7a492128c",
   "lastOpenFiles": [
+    "img/Space_Marine_2.png",
+    "posts/Fedora Linux Fortinac Install Guide.md",
+    "posts/How WOKE are my games.md",
+    "posts/My Experience with Linux.md",
+    "posts/What Happened with Godot.md",
+    "index.md",
+    "about.md",
+    "posts.md",
     "img/Comment.png",
     "img/84b-2290307145.jpg",
-    "posts/Fedora Linux Fortinac Install Guide.md",
-    "posts/What Happened with Godot.md",
-    "img/GYfLkqVXgAAR-lT.jpg",
-    "posts/My Experience with Linux.md"
+    "img/GYfLkqVXgAAR-lT.jpg"
   ]
 }
