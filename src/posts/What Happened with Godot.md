@@ -9,7 +9,7 @@ tags:
 ---
 Over the past couple of days, Godot has gained a lot of attention. Mainstream outlets tend to characterize this attention as "community backlash" or "concerns over moderation", which I guess it might look like from the outside. But as someone who's been in this community for years, I'd like to set the record straight, because talking about the backlash with even the slightest implication that it's a legitimate debate over the direction of Godot's community management is journalistic malpractice in my book.
 
-## The One God Damn Tweet
+## The One God-Forsaken Tweet
 
 Most coverage tends to pass over the inciting incident for this whole mess, which makes sense because it reveals how stupid this "controversy" was. Here it is, in all its putrid glory:
 
@@ -21,7 +21,7 @@ It wasn't even about Godot! It was just a brain-dead chud proudly claiming that 
 
 That was it. That was literally it. That was all it took to whip twitter reply guys into a frenzy of general reactionary hate for daring to poke fun at the idea that game engines are "Woke". There was an entirely separate conflict going on at the same time over a moderator at an *unofficial* Godot Discord server, but acting like that's relevant is just poor due diligence.
 
-Nobody's on trial for abusing their mod privileges, people are just mad they got their reply hidden. If you think that's valid, do me a favor and check the hidden replies. Or, even better, don't! There's nothing in there worth reading. In this situation the community manager running the account was entirely within their rights, yet regressive shit-lords decided this was enough to start a harassment campaign over.
+Nobody's on trial for abusing their mod privileges, people are just mad they got their reply hidden. If you think that's valid, do me a favor and check the hidden replies. Or, even better, don't! There's nothing in there worth reading. In this situation the community manager running the account was entirely within their rights, yet regressive edge-lords decided this was enough to start a harassment campaign over.
 
 That's the gist of what's happened and what's happening. I don't really have a conclusion, other than taking any part of this seriously is more generous than any of these clowns deserve. Well, there is one small silver lining, this comment: 
 ![A lemmy.world comment reading "Open source software is the wokest shit possible... It's pretty much digital communism run by the gayest furries you'll ever meet."](/img/Comment.png)

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/How WOKE are my games.md",
+                "file": "posts/Steam Curator Groups Have a Problem.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/How WOKE are my games.md",
+                "file": "posts/Steam Curator Groups Have a Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/How WOKE are my games.md",
+                "file": "posts/Steam Curator Groups Have a Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/How WOKE are my games.md"
+                "file": "posts/Steam Curator Groups Have a Problem.md"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "46c4a1d7a492128c",
   "lastOpenFiles": [
+    "posts/What Happened with Godot.md",
+    "posts/Steam Curator Groups Have a Problem.md",
     "img/Space_Marine_2.png",
     "posts/Fedora Linux Fortinac Install Guide.md",
-    "posts/How WOKE are my games.md",
     "posts/My Experience with Linux.md",
-    "posts/What Happened with Godot.md",
     "index.md",
     "about.md",
     "posts.md",

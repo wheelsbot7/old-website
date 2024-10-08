@@ -1,5 +1,5 @@
 ---
-title: How WOKE are my games?
+title: Steam Curator Groups Have a Problem
 description: A discussion of my steam library compared against a public database categorizing games as "Woke" or not
 tags:
   - posts
@@ -13,4 +13,4 @@ First off, the people making this judgement have a **massive** recency bias. Peo
 ![A review of Warhammer 40,000: Space Marine 2 reading "Contains overtly pro-DEI messaging. The ultramarines seen in-game are improbably diverse. Features front-line female combatants, including an improbable female authority figure."](/img/Space_Marine_2.png)
 A lot of the time I worry if I'm going too far in pointing out "Woke" content in older games because it seems like I'm attributing a ridiculous level of racism, sexism, and homophobia to modern alt-gamers. Then I remind myself of this post. In Space Marine 2, 1 out of the 3 campaign squad members is black and 1 out of the 6 multiplayer classes is black. The main Astra Militarum officer you interact with on the first planet of the campaign is a woman. A few nameless grunts are also women. Imagine taking issue with this. Imagine the life you must lead to condemn the game in its entirety and discourage others from playing it for reasons like these.
 
-As I said before, I think this steam group is mostly true believers. There's no real way to grift off of compiling a spreadsheet of games, that's only something you do if you genuinely believe the world will benefit from it. 
+As I said before, I think this steam group is mostly true believers. There's no real way to grift off of compiling a spreadsheet of games, that's only something you do if you genuinely believe the world will benefit from it. I think that's why the "Slightly Woke" rating even exists, these people clearly care about nuance, at least when the nuance is "This game has woke content, but I like it". Case in point, Fallout: New Vegas
