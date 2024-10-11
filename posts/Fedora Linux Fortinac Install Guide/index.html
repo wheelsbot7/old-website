@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <link rel="icon" href="/img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Your new 11ty blog">
+    <link rel="stylesheet" type="text/css" href="/public/style.css">
+    <a rel="me" href="https://mastodon.gamedev.place/@wheelsbot">Mastodon</a>
+    <title>Fedora Linux Fortinac Install Guide</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="headerArea">
+        <div id="masthead"><a href="/">Wheelsblog V7</a></div>
+        <div id="header">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/posts">All Posts</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="flex">
+        <main>
+          <h1>Fedora Linux Fortinac Install Guide</h1>
+<p>I recently had the displeasure of trying to get my laptop to connect to the college Wi-Fi after they tightened their restrictions on endpoint management. Long story short, I was forced to switch from Arch to Fedora, and I feel the need to document the experience so that nobody will ever have to go through what I did to avoid crawling back to Windows with my tail between my legs.</p>
+<h2>Why are we even doing this?</h2>
+<p>Normally using endpoint management software is annoying, but painless. Install a program, run it, it configures some stuff behind the scenes, you're good to go. However, this only works if you're using a system the developers expect their customers to use. Since the vast majority of them use Windows, any Linux versions are janky at best and non-functional at worst. Thankfully, my college offered a work-around for &quot;miscellaneous devices&quot;, set up the whole thing manually.
+<img loading="lazy" decoding="async" src="/img/skJC9DVwdG-778.png" alt="Screenshot of network configuration on KDE Plasma" width="778" height="651">
+The process of configuring a secure connection manually is a bit overwhelming, but it's ultimately just putting squares in the square hole and circles in the circle hole. Your organization will provide all of these, though sometimes under different names, because god forbid anything about this be easy. Anyway, last year a change was made at my college, requiring not just the identity, domain, certificates and private key, but also a background service called &quot;Fortinac Persistent Agent&quot;. Only problem? It only offered .deb and .rpm files. Hardly surprising, the only reason they had <em>any</em> Linux support was for Raspberry Pi projects. Regardless, that meant I had to distrohop yet again.</p>
+<h2>The actual solution</h2>
+<p>When signing in through their web portal, Fortinac offered automatic configuration programs for Ubuntu and Fedora. I will never know if they actually work or if I was just doing something wrong, because they only ever did jack shit for me. No, the actual solution was a lot closer to the manual setup I'd been doing before.</p>
+<ol>
+<li>Install Fedora.
+Stock standard install, nothing special that would need to be covered here.</li>
+<li>Configure Wi-Fi manually.
+Same as before, download certificates and keys, plug in my credentials, and that <em>should</em> be the end of it</li>
+<li>Download .rpm file.
+Normally the connection would just work at this point, but instead it redirected me to download either a .deb or .rpm file. I did so and installed their &quot;Persistent Agent&quot; but nothing happened. I looked for an executable it might have put somewhere in /bin, but nothing. Then I remembered I wasn't in Arch anymore and if I wanted something to fully install, I would need to restart.</li>
+<li>Restart.
+Finally, it works. The Persistent Agent configured my IP and I connected without any issues.</li>
+</ol>
+<p>Looking back on the process, it was actually pretty simple. The only reason it took so long for me to figure it out was the lack of transparency and documentation. That's the whole reason I'm writing this. Good luck, hope this helped.</p>
+<h3>EDIT: EXCEPT ACTUALLY THAT WAS ALL A LIE AND I HAVE NO CLUE WHY</h3>
+<p>Adding this as an addendum, but I reinstalled Arch after they announced their collaboration with Valve, and the Wi-Fi connected without issue, even without the persistent agent. So really I have no idea why any of this worked or didn't. Probably something changed on the backend or I was just doing something wrong in the first place that I somehow managed to avoid this time. Either way, just wanted to mention that everything stated above ended up being completely useless, at least to me. Might still help someone, but not me.</p>
+
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
