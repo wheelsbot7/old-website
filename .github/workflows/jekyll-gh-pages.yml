@@ -30,11 +30,10 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+      - name: Build with Eleventy
+        uses: TartanLlama/actions-eleventy@v1.2
         with:
-          source: ./
-          destination: ./_site
+          install_dependencies: true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
