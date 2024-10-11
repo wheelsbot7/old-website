@@ -1,5 +1,5 @@
 # WHEELSBLOG V7
 
-My personal website, built with GitHub Pages and Netlify
+My personal website, built with 11ty and deployed wtih GitHub Pages
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fb86e686-f2d7-4515-8138-9edfbcbdea68/deploy-status)](https://app.netlify.com/sites/wheelsbot7/deploys)
+![GitHub Pages](https://github.com/wheelsbot7/wheelsbot7.github.io/actions/workflows/node.js.yml/badge.svg)
