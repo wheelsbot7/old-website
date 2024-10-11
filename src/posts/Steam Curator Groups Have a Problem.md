@@ -5,6 +5,7 @@ tags:
   - posts
   - Gaming
   - Steam
+  - drafts
 layout: layouts/post.njk
 ---
 So, for the non-internet-poisoned among you, there's this steam group that reviews games based on whether they're "Woke" or not. They haven't really spread much, mostly because it's largely an earnest attempt. They're not selling merch or advertising themselves as part of a larger culture war (e.g. a similar steam group that flagged games Sweet Baby Inc. had worked on), they're actually trying to be a good resource for people who want to know if a game is "Woke". They even compiled their verdicts into a google sheets document for easy analysis. So easy, in fact, that a certain [SuperN64](https://cirnoslab.me/) made a tool that searches your steam library and cross-references it with the steam group's public csv file. Personally, I think it's a great way to make people aware of the gamergate-style regressive hatred still present in some communities, because it easily contrasts what alt-gamers think makes a game worthy of ridicule with games the viewer is familiar with. In doing this, it shows how inconsistent their standards are, and how truly miserable you must be to only play games on the pre-approved woke-free checklist. As an example, I'd like to go through my own experience with the tool, which you can find [here](https://wokedetector.cirnoslab.me/).
