@@ -354,7 +354,7 @@ img {
 	object-fit: contain;
 	padding: 3px;
 	display: flex;
-	align-content: center;
+	margin: auto;
 }
 
 video {
