@@ -1,16 +1,42 @@
-name: Eleventy Build
-on: [push]
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
 
 jobs:
-  build_deploy:
-    runs-on: ubuntu-latest
+  deploy:
+    runs-on: [self-hosted, linux]
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@master
-      - name: Build
-        uses: cjerrington/actions-eleventy@master
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          publish_dir: _site 
+          node-version: current
+          cache: 'npm'
+
+      - name: Persist npm cache
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install Dependencies and Build
+        run: |
+          npm install
+          npm run build
+        
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
           publish_branch: gh-pages
-          github_token: ${{ secrets.DEPLOY_TOKEN }}
