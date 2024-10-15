@@ -2,7 +2,6 @@
 title: Steam Curator Groups Have a Problem
 description: A discussion of my steam library compared against a public database categorizing games as "Woke" or not
 tags:
-  - posts
   - Gaming
   - Steam
 layout: layouts/post.njk

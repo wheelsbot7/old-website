@@ -4,7 +4,6 @@ description: Overview of the controversy regarding the Godot twitter account goi
 date: 2024-10-03
 layout: layouts/post.njk
 tags:
-  - posts
   - Godot
 ---
 Over the past couple of days, Godot has gained a lot of attention. Mainstream outlets tend to characterize this attention as "community backlash" or "concerns over moderation", which I guess it might look like from the outside. But as someone who's been in this community for years, I'd like to set the record straight, because talking about the backlash with even the slightest implication that it's a legitimate debate over the direction of Godot's community management is journalistic malpractice in my book.
