@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "@11ty/eleventy-img": "^5.0.0",
-    "luxon": "3.5.0"
+    "luxon": "3.5.0",
+    "simple-icons": "^13.14.0"
   },
   "type": "module"
 }
