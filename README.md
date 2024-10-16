@@ -1,5 +1,9 @@
 # WHEELSBLOG V7
 
-My personal website, built with <img height="auto" width="32" src="https://cdn.simpleicons.org/eleventy/white"/> and deployed with <img height="16" width="auto" src="githubpages.svg"/>
+![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
 
-[![Deploy to GitHub Pages](https://github.com/wheelsbot7/wheelsbot7.github.io/actions/workflows/github_pages.yml/badge.svg)](https://github.com/wheelsbot7/wheelsbot7.github.io/actions/workflows/github_pages.yml)
+My personal website, built with Eleventy and hosted on GitHub Pages 	
+
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/wheelsbot7/wheelsbot7.github.io/github_pages.yml)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fwheelsbot.dev&up_message=up%20and%20running!&style=flat)
+
